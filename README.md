@@ -1,6 +1,20 @@
+# Pré-requisitos
+- Visual Studio Code
+  - Extensão: Jupyter
+  - Extensão: Python
+  - Extensão: VS Code Jupyter Notebook Preview
+  - Extensão: vscode-icons
+- Python 3
+  - pip3
+  - numpy
+  - jupyter
+  - pandas
+  - sklearn
+  - matplotlib
+
 # Datascience
 
-## Estrutura do curso
+Estrutura do curso:
 - Intro à datascience
 - 
 - utilizando Pyhton
@@ -14,7 +28,9 @@ Framework de descoberta do conhecimento, que segue:
 - Pré-processamento dos dados (análise exploratória)
 - Transformação dos dados
 - Mineração de dados
-- Interpretação dos resultados
+  - Aprendizado supervisionado
+  - Aprendizado não supervisionado
+- Interpretação e validação dos resultados
 
 Filme: Moneyball
 
@@ -22,5 +38,9 @@ Filme: Moneyball
 - Conhecimento novo.
 
 
+# Oferecimento
+> DBServer - Porto Alegre
+
 ## Orientadora do curso
-Graziele Mazuco
+    Graziele Mazuco
+    (https://github.com/grazimazuco)

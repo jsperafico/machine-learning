@@ -7,18 +7,20 @@ except:
 	pass
 #%% [markdown]
 # ** Importar o pandas as pd.**
-
 #%%
 import pandas as pd
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 #%% [markdown]
-# ** Salvar student-por.csv como um dataframe chamado student.**
-
+# ** Salvar student-por.csv como um dataframe chamado df_student.**
 #%%
 df_student = pd.read_csv('../data/student/student-por.csv', sep=';')
+
 #%% [markdown]
 # **Visualizar o cabeçalho do DataFrame.**
-
 #%%
 df_student.head()
+
+#%% [markdown]
+# **Teste**
+#%%
