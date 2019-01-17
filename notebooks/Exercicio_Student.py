@@ -52,8 +52,8 @@ df_absence.head()
 from matplotlib import cm
 import pandas as pd
 import matplotlib.pyplot as plt
-x = df_absence[['traveltime', 'studytime', 'absences']]
-y = df_absence['tp_sex']
+x = df_absence[['traveltime', 'studytime', 'tp_sex']]
+y = df_absence['absences']
 cmap = cm.get_cmap('gnuplot')
 scatter = pd.plotting.scatter_matrix(x, c=y, marker='o', s=40, hist_kwds={'bins':15}, figsize=(9,9), cmap=cmap)
 
@@ -78,9 +78,8 @@ knn.score(x_test, y_test)
 #%% [markdown]
 # Usando o classificador para classificar um objeto.
 #%%
-absences_prediction = knn.predict([[1.5, 2, 1]])
-lookup_absence = dict(zip(df_absence['tp_sex'].unique(), df_absence['sex'].unique()))
-lookup_absence[absences_prediction[0]]
+absences_prediction = knn.predict([[1.5, 2, 0]])
+absences_prediction
 
 #%% [markdown]
 # Quão a acurácia é impactada pelo valor de k?
@@ -102,6 +101,5 @@ plt.xticks([0,5,10,15,20])
 #%% [markdown]
 # Usando o classificador para classificar um objeto.
 #%%
-absences_prediction = knn.predict([[1.5, 2, 1]])
-lookup_absence = dict(zip(df_absence['tp_sex'].unique(), df_absence['sex'].unique()))
-lookup_absence[absences_prediction[0]]
+absences_prediction = knn.predict([[1.5, 2, 0]])
+absences_prediction
