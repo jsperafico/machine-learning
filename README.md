@@ -1,46 +1,9 @@
-# Pré-requisitos
-- Visual Studio Code
-  - Extensão: Jupyter
-  - Extensão: Python
-  - Extensão: VS Code Jupyter Notebook Preview
-  - Extensão: vscode-icons
-- Python 3
-  - pip3
-  - numpy
-  - jupyter
-  - pandas
-  - sklearn
-  - matplotlib
+# What I'm following?
 
-# Datascience
+Please consider that's my learning process on Machine Learning.
+I'm enrolled at [Udemy' course](https://www.udemy.com/course/machine-learning-course-with-python).
 
-Estrutura do curso:
-- Intro à datascience
-- 
-- utilizando Pyhton
+## Requirements
 
-## O que é Datascrience?
-Area de estudo interdissiplinar.
-
-Framework de descoberta do conhecimento, que segue:
-- Coleta de dados
-- Organizar conjunto de dados
-- Pré-processamento dos dados (análise exploratória)
-- Transformação dos dados
-- Mineração de dados
-  - Aprendizado supervisionado
-  - Aprendizado não supervisionado
-- Interpretação e validação dos resultados
-
-Filme: Moneyball
-
-### Como se define o sucesso?
-- Conhecimento novo.
-
-
-# Oferecimento
-> DBServer - Porto Alegre
-
-## Orientadora do curso
-    Graziele Mazuco
-    (https://github.com/grazimazuco)
+I'm using docker container with [Jupyter and Conda](https://hub.docker.com/r/jupyter/datascience-notebook/).
+It's easier to install, already configured with almost everything that you may need.
